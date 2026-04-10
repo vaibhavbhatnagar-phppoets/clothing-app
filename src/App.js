@@ -7,10 +7,10 @@ import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
 import Men from "./pages/Men";
 import Women from "./pages/Women";
-import Children from "./pages/Children";
-import Cart from "./pages/Cart";
+import Children from "./pages/Children"; 
 import Login from "./pages/Login";
 import Signup from "./pages/SignUp";
+import Cart from "./components/Cart";
 
 function App() {
   return (
