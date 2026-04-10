@@ -36,3 +36,21 @@
     transform: rotate(360deg);
   }
 }
+
+body {
+  font-family: Arial;
+}
+
+nav {
+  display: flex;
+  gap: 15px;
+  background: black;
+  color: white;
+  padding: 10px;
+}
+
+.card {
+  border: 1px solid gray;
+  padding: 10px;
+  margin: 10px;
+}
