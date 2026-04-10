@@ -58,6 +58,8 @@ const Navbar = () => {
       <h2 style={styles.logo}>Clothing Store</h2>
 
       <div style={styles.links}>
+        <Link to="/login">Login</Link>
+<Link to="/signup">Signup</Link>
         <Link to="/" style={styles.link} onMouseEnter={handleHover} onMouseLeave={handleLeave}>Home</Link>
         <Link to="/men" style={styles.link} onMouseEnter={handleHover} onMouseLeave={handleLeave}>Men</Link>
         <Link to="/women" style={styles.link} onMouseEnter={handleHover} onMouseLeave={handleLeave}>Women</Link>
