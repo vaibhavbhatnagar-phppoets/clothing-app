@@ -13,18 +13,24 @@ const Home = () => {
       overflow: "hidden",
     },
     heroImg: {
-      width: "100%",
-      height: "100%",
-      objectFit: "cover",
-      filter: "brightness(60%)",
-    },
-    heroText: {
-      position: "absolute",
-      top: "50%",
-      left: "10%",
-      transform: "translateY(-50%)",
-      color: "white",
-    },
+  width: "100%",
+  height: "100%",
+  objectFit: "cover",
+  filter: "brightness(60%)",
+  position: "absolute",   // ✅ ADD THIS
+  top: 0,
+  left: 0,
+  zIndex: 1,              // ✅ LOWER
+},
+
+heroText: {
+  position: "absolute",
+  top: "50%",
+  left: "10%",
+  transform: "translateY(-50%)",
+  color: "white",
+  zIndex: 2,              // ✅ HIGHER (IMPORTANT)
+},
     button: {
       marginTop: "15px",
       padding: "10px 20px",
